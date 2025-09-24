@@ -1,31 +1,27 @@
-# Neovim Configuration
+# My Configuration Files
 
-This repository contains a custom configuration for Neovim, optimized for plugin management using `lazy.nvim`. The setup includes plugins to enhance the interface, navigation, and code editing experience for various programming languages.
+This repository contains my personal configuration files and dotfiles for various development tools and applications.
 
-## Project Structure
+## Contents
 
-├── init.lua
-├── lazy-lock.json
-└── lua
-    ├── plugins
-    │   ├── catppuccin.lua
-    │   ├── neo-tree.lua
-    │   ├── telescope.lua
-    │   └── treesitter.lua
-    └── plugins.lua
-
-## Included Plugins
-
-This configuration includes the following plugins:
-
-- **Catppuccin**: A visually appealing theme to enhance Neovim's appearance.
-- **Neo-tree**: A powerful file explorer for easy project navigation.
-- **Telescope**: A fuzzy finder to quickly locate files, symbols, and commands.
-- **Treesitter**: Advanced syntax highlighting for multiple programming languages.
+- Shell configurations (bash, zsh, etc.)
+- Editor configurations (vim, vscode, etc.)
+- Terminal configurations
+- Development tool settings
+- Custom scripts and aliases
 
 ## Installation
 
-1. **Clone the repository** into your Neovim configuration folder:
+```bash
+git clone https://github.com/username/my_config.git
+cd my_config
+# Copy or symlink desired config files to appropriate locations
+```
 
-   ```bash
-   git clone https://github.com/SosoLeJovial/nvim_config ~/.config/nvim
+## Usage
+
+Each configuration file includes comments explaining its purpose and usage. Feel free to adapt them to your needs.
+
+## License
+
+These configurations are provided as-is for personal use.
